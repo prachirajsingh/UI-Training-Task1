@@ -1,0 +1,161 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #333; /* Background color for the sidebar */
+}
+
+
+.sidebar-content {
+    padding-top: 0px; /* Add some padding to the top of the content */
+    font-size: 20px;
+}
+
+.sidebar-link {
+    display: block;
+    padding: 20px;
+    color: white; /* Color of the links */
+    text-decoration: none;
+}
+
+.sidebar-link:hover {
+    background-color: #555; /* Background color when hovered */
+}
+
+.hidden {
+    display: none;
+}
+
+.content {
+    margin-left: 40%;
+}
+
+.menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 16px;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+header {
+    padding: 128px 16px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.download-btn {
+    background-color: #f1f1f1;
+    padding: 16px 32px;
+    margin-top: 16px;
+    border: none;
+    cursor: pointer;
+}
+.download-btn a {
+    color: rgb(86, 81, 81);
+    text-decoration: none; /* Remove underline */
+  }
+
+.download-btn a:hover {
+    color: rgb(185, 179, 179); /* Change color on hover */
+  }
+
+.portfolio {
+    padding: 32px 16px;
+}
+
+.portfolio h2 {
+    text-align: center;
+}
+
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo-grid .photos {
+    margin: 0 -16px;
+}
+
+.photo-grid img {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.about {
+    padding: 32px 16px;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.contact {
+    padding: 32px 16px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 32px;
+}
+
+.contact-info p {
+    margin: 8px 0;
+}
+
+.contact input {
+    flex: 1;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.contact button {
+    flex: 1;
+    padding: 16px;
+    margin-top: 16px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px 16px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+footer i {
+    font-size: 22px; /* Increase the font size to your desired value */
+    margin: 0 3px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+footer p {
+    font-size:12px;
+}
+
+footer i:hover {
+    color: #cbcccd; 
+}
